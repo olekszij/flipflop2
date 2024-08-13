@@ -1,0 +1,215 @@
+/* Reset margin and padding for all elements */
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ /* Применение стиля выделения текста */
+ ::selection {
+  background-color: #2e0b44;
+  color: #ffffff;
+}
+
+/* Применение стиля выделения текста для ссылок */
+a::selection {
+  background-color: #8810d2;
+  color: #ffffff;
+}
+
+/* Заголовок */
+h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Container for the cards */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Flip card styles */
+.card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: #333;
+  border-radius: 10px;
+}
+
+.card-front {
+  color: black;
+  animation: pulse 1.5s infinite;
+}
+
+.card-back {
+  background-color: #d1f4bb;
+  transform: rotateY(180deg);
+}
+
+
+/* Контейнер для селектора темы */
+.theme-selector-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* Селектор темы */
+.theme-selector {
+  width: 250px;
+  padding: 10px 15px;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-align: center;
+  color: black;
+  background: gold;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+
+/* Стиль для селектора при наведении */
+.theme-selector:hover {
+  background: gold;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Стилизация выпадающего меню */
+.theme-selector-container select:focus {
+  outline: none;
+}
+
+/* Стили для стрелки на выпадающем списке */
+.theme-selector::after {
+  content: '▼';
+  font-size: 1em;
+  color: #fff;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Контейнер для карточек */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.animated-highlight {
+  background-color: #f7cac9;
+  color: #444;
+  padding: 2px 4px;
+  border-radius: 4px;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #f7cac9;
+  }
+  50% {
+    background-color: #dec3e9;
+  }
+  100% {
+    background-color: #f7cac9;
+  }
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.logo-img {
+  width: 100px;
+  height: 100px;
+}
+
+
+/* Основной контент страницы */
+.content {
+  min-height: 150vh; /* Делаем страницу длиннее для демонстрации */
+  padding: 20px;
+  margin-bottom: 60px; /* Отступ снизу для футера */
+}
+
+/* Стили для футера */
+.footer {
+  background-color: #f7cac9;
+  color: #444; /* Темный цвет текста */
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+ 
+}
+
+/* Стили для кнопки "Вверх" */
+.back-to-top {
+  background-color: #8f94fb; /* Пастельный фиолетовый фон */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+}
+
+/* Изменение цвета кнопки при наведении */
+.back-to-top:hover {
+  background-color: #6b70d9;
+}

@@ -1,0 +1,312 @@
+{
+    "questions": [
+        {
+            "question": "Qu'est-ce que React?",
+            "answer": "React est une bibliothèque JavaScript pour construire des interfaces utilisateur."
+        },
+        {
+            "question": "Quelle est la différence entre React et ReactDOM?",
+            "answer": "React est utilisé pour créer des composants, tandis que ReactDOM est utilisé pour rendre ces composants dans le DOM."
+        },
+        {
+            "question": "Qu'est-ce qu'un composant en React?",
+            "answer": "Un composant est une fonction ou une classe en React qui peut accepter des entrées (props) et retourner un élément React décrivant une partie de l'interface utilisateur."
+        },
+        {
+            "question": "Quelle est la différence entre un composant fonctionnel et un composant de classe en React?",
+            "answer": "Les composants fonctionnels sont des fonctions simples sans état, tandis que les composants de classe peuvent avoir un état et utiliser des méthodes de cycle de vie."
+        },
+        {
+            "question": "Qu'est-ce que JSX?",
+            "answer": "JSX est une extension de syntaxe pour JavaScript qui ressemble à du HTML et est utilisée avec React pour décrire ce que l'interface utilisateur doit ressembler."
+        },
+        {
+            "question": "Comment rendre un composant en React?",
+            "answer": "Vous pouvez rendre un composant en utilisant ReactDOM.render() et en passant le composant à cette fonction."
+        },
+        {
+            "question": "Qu'est-ce que le state en React?",
+            "answer": "Le state est un objet JavaScript spécial qui contient des données dynamiques et permet à un composant de React de gérer ses propres données internes."
+        },
+        {
+            "question": "Qu'est-ce que props en React?",
+            "answer": "Les props (propriétés) sont des entrées que vous pouvez passer à un composant React pour contrôler son comportement."
+        },
+        {
+            "question": "Quelle est la différence entre state et props en React?",
+            "answer": "Le state est géré à l'intérieur du composant, tandis que les props sont passées au composant par son parent."
+        },
+        {
+            "question": "Comment mettre à jour le state en React?",
+            "answer": "Vous pouvez mettre à jour le state en utilisant la méthode setState() dans les composants de classe ou en utilisant le hook useState() dans les composants fonctionnels."
+        },
+        {
+            "question": "Qu'est-ce que le hook useState en React?",
+            "answer": "useState est un hook qui permet d'ajouter un state local à un composant fonctionnel en React."
+        },
+        {
+            "question": "Qu'est-ce que le hook useEffect en React?",
+            "answer": "useEffect est un hook qui permet d'exécuter des effets secondaires dans les composants fonctionnels en React, comme des appels API ou des manipulations du DOM."
+        },
+        {
+            "question": "Quand useEffect est-il appelé?",
+            "answer": "useEffect est appelé après chaque rendu du composant par défaut. Vous pouvez contrôler quand il est appelé en passant un tableau de dépendances en second argument."
+        },
+        {
+            "question": "Qu'est-ce qu'un composant contrôlé en React?",
+            "answer": "Un composant contrôlé est un composant dont le state est géré par React, comme un champ de formulaire dont la valeur est contrôlée par le state."
+        },
+        {
+            "question": "Qu'est-ce qu'un composant non contrôlé en React?",
+            "answer": "Un composant non contrôlé est un composant dont la valeur est gérée par le DOM plutôt que par React, comme un champ de formulaire sans gestion du state."
+        },
+        {
+            "question": "Qu'est-ce qu'un événement en React?",
+            "answer": "Un événement en React est une action déclenchée par l'utilisateur, comme un clic ou une frappe au clavier, que vous pouvez capturer et gérer via des gestionnaires d'événements."
+        },
+        {
+            "question": "Comment gérer les événements en React?",
+            "answer": "Vous pouvez gérer les événements en React en passant une fonction en tant que gestionnaire d'événements, comme onClick, onChange, etc."
+        },
+        {
+            "question": "Qu'est-ce que le Virtual DOM en React?",
+            "answer": "Le Virtual DOM est une représentation en mémoire du DOM réel qui permet à React d'optimiser les mises à jour en ne modifiant que ce qui est nécessaire."
+        },
+        {
+            "question": "Comment React utilise-t-il le Virtual DOM?",
+            "answer": "React utilise le Virtual DOM pour comparer l'état actuel du DOM avec l'état désiré et ne met à jour que les parties du DOM qui ont changé."
+        },
+        {
+            "question": "Qu'est-ce qu'une clé (key) en React et pourquoi est-elle utilisée?",
+            "answer": "Une clé est un attribut spécial que vous devez inclure lorsque vous créez des listes d'éléments en React. Elle aide React à identifier quels éléments ont changé, été ajoutés ou supprimés."
+        },
+        {
+            "question": "Comment passer des données d'un parent à un enfant en React?",
+            "answer": "Vous pouvez passer des données d'un parent à un enfant en React via les props."
+        },
+        {
+            "question": "Qu'est-ce que le hook useContext en React?",
+            "answer": "useContext est un hook qui permet d'accéder à des données de contexte dans les composants fonctionnels en React sans avoir à passer des props."
+        },
+        {
+            "question": "Qu'est-ce que le Context en React?",
+            "answer": "Le Context en React est une façon de partager des valeurs, comme des thèmes ou des données utilisateur, entre des composants sans avoir à passer explicitement des props."
+        },
+        {
+            "question": "Qu'est-ce que le render props en React?",
+            "answer": "Le render props est une technique pour partager du code entre les composants React en passant une fonction qui renvoie un élément React en tant que prop."
+        },
+        {
+            "question": "Qu'est-ce qu'un higher-order component (HOC) en React?",
+            "answer": "Un higher-order component (HOC) est une fonction qui prend un composant en entrée et retourne un nouveau composant avec des fonctionnalités supplémentaires."
+        },
+        {
+            "question": "Comment créer un formulaire en React?",
+            "answer": "Vous pouvez créer un formulaire en React en utilisant des éléments comme <input>, <textarea>, <select>, et en gérant leur state."
+        },
+        {
+            "question": "Qu'est-ce que le lifting state up en React?",
+            "answer": "Le lifting state up consiste à déplacer le state partagé par plusieurs composants enfants vers leur parent commun pour faciliter la synchronisation."
+        },
+        {
+            "question": "Qu'est-ce que le hook useRef en React?",
+            "answer": "useRef est un hook qui permet de créer une référence mutable qui persiste pendant le cycle de vie complet du composant. Il est souvent utilisé pour accéder directement à un élément DOM."
+        },
+        {
+            "question": "Quand utiliser useRef au lieu de state?",
+            "answer": "Vous utilisez useRef lorsque vous avez besoin de stocker une valeur mutable qui ne déclenche pas de re-rendu du composant lorsqu'elle change."
+        },
+        {
+            "question": "Comment React gère-t-il la sécurité des composants?",
+            "answer": "React encourage les pratiques de sécurité comme l'échappement automatique des valeurs dans JSX pour prévenir les attaques XSS (Cross-Site Scripting)."
+        },
+        {
+            "question": "Qu'est-ce que la méthode componentDidMount en React?",
+            "answer": "componentDidMount est une méthode de cycle de vie dans les composants de classe qui est appelée une fois que le composant est monté dans le DOM."
+        },
+        {
+            "question": "Qu'est-ce que la méthode componentDidUpdate en React?",
+            "answer": "componentDidUpdate est une méthode de cycle de vie qui est appelée après la mise à jour d'un composant de classe."
+        },
+        {
+            "question": "Qu'est-ce que la méthode componentWillUnmount en React?",
+            "answer": "componentWillUnmount est une méthode de cycle de vie qui est appelée juste avant que le composant ne soit démonté et détruit."
+        },
+        {
+            "question": "Qu'est-ce que la méthode shouldComponentUpdate en React?",
+            "answer": "shouldComponentUpdate est une méthode de cycle de vie qui détermine si un composant doit se re-rendre en réponse à un changement de props ou de state."
+        },
+        {
+            "question": "Comment optimiser les performances des composants React?",
+            "answer": "Vous pouvez optimiser les performances en utilisant shouldComponentUpdate, React.memo, useMemo, useCallback, et en évitant les re-rendus inutiles."
+        },
+        {
+            "question": "Qu'est-ce que React.memo?",
+            "answer": "React.memo est une fonction qui mémorise le rendu d'un composant fonctionnel et évite de le re-rendre si ses props n'ont pas changé."
+        },
+        {
+            "question": "Qu'est-ce que le hook useMemo en React?",
+            "answer": "useMemo est un hook qui mémorise la valeur retournée par une fonction calculée pour éviter les calculs coûteux à chaque re-rendu."
+        },
+        {
+            "question": "Qu'est-ce que le hook useCallback en React?",
+            "answer": "useCallback est un hook qui mémorise une fonction pour qu'elle ne soit pas recréée à chaque re-rendu du composant."
+        },
+        {
+            "question": "Qu'est-ce que la déstructuration des props en React?",
+            "answer": "La déstructuration des props est une syntaxe JavaScript qui permet d'extraire des valeurs des props et de les assigner à des variables locales."
+        },
+        {
+            "question": "Comment gérer les erreurs dans les composants React?",
+            "answer": "Vous pouvez gérer les erreurs dans les composants React en utilisant les boundary components, qui interceptent les erreurs de rendu."
+        },
+        {
+            "question": "Qu'est-ce qu'un Error Boundary en React?",
+            "answer": "Un Error Boundary est un composant React qui intercepte les erreurs JavaScript dans son arbre de composants enfant, les capture et affiche une UI de repli."
+        },
+        {
+            "question": "Qu'est-ce que le Lazy Loading en React?",
+            "answer": "Le Lazy Loading est une technique pour charger les composants React uniquement lorsque cela est nécessaire, ce qui améliore les performances initiales."
+        },
+        {
+            "question": "Qu'est-ce que React.lazy?",
+            "answer": "React.lazy est une fonction qui permet de rendre un composant dynamiquement et de le charger au moment où il est nécessaire, implémentant le lazy loading."
+        },
+        {
+            "question": "Comment gérer la pagination en React?",
+            "answer": "La pagination en React peut être gérée en fractionnant les données en pages et en utilisant un état pour suivre et afficher la page actuelle."
+        },
+        {
+            "question": "Comment intégrer une API REST dans une application React?",
+            "answer": "Vous pouvez intégrer une API REST dans une application React en utilisant fetch ou axios pour effectuer des requêtes HTTP et gérer les réponses."
+        },
+        {
+            "question": "Qu'est-ce que React Router?",
+            "answer": "React Router est une bibliothèque pour la gestion des routes dans une application React, permettant la navigation entre les différentes pages."
+        },
+        {
+            "question": "Comment définir une route dans React Router?",
+            "answer": "Vous pouvez définir une route en utilisant le composant Route de React Router et en spécifiant le chemin et le composant à rendre."
+        },
+        {
+            "question": "Qu'est-ce que le composant Link en React Router?",
+            "answer": "Le composant Link est utilisé pour créer des liens de navigation dans une application React sans recharger la page."
+        },
+        {
+            "question": "Qu'est-ce que le composant Switch en React Router?",
+            "answer": "Le composant Switch rend exclusivement la première route enfant qui correspond à l'URL actuelle."
+        },
+        {
+            "question": "Comment gérer les redirections en React Router?",
+            "answer": "Les redirections en React Router peuvent être gérées en utilisant le composant Redirect pour rediriger vers un autre chemin."
+        },
+        {
+            "question": "Comment utiliser les paramètres de route en React Router?",
+            "answer": "Les paramètres de route peuvent être utilisés en définissant des routes dynamiques avec :paramName et en accédant aux paramètres via props.match.params."
+        },
+        {
+            "question": "Comment gérer l'authentification dans une application React?",
+            "answer": "L'authentification dans une application React peut être gérée en utilisant des états pour suivre si un utilisateur est connecté et en protégeant les routes avec des composants spécifiques."
+        },
+        {
+            "question": "Qu'est-ce que le Context API en React?",
+            "answer": "Le Context API en React est une façon de partager globalement des données à travers l'arborescence des composants sans passer explicitement des props."
+        },
+        {
+            "question": "Quand utiliser le Context API en React?",
+            "answer": "Vous utilisez le Context API lorsque vous avez besoin de partager des données globales, comme l'état de l'utilisateur ou les préférences de thème, entre de nombreux composants."
+        },
+        {
+            "question": "Comment créer un contexte en React?",
+            "answer": "Vous pouvez créer un contexte en utilisant la méthode createContext() et fournir un Provider pour envelopper votre application ou une partie de celle-ci."
+        },
+        {
+            "question": "Qu'est-ce que la méthode getDerivedStateFromProps en React?",
+            "answer": "getDerivedStateFromProps est une méthode de cycle de vie statique qui est appelée avant chaque rendu lorsque le composant reçoit de nouvelles props."
+        },
+        {
+            "question": "Qu'est-ce que le suspense en React?",
+            "answer": "Le suspense est une fonctionnalité de React qui permet de gérer le rendu asynchrone des composants en attendant que quelque chose (comme une ressource ou des données) soit prêt."
+        },
+        {
+            "question": "Qu'est-ce qu'une ref en React?",
+            "answer": "Une ref en React est un moyen de référencer directement un élément DOM ou un composant React pour pouvoir interagir avec celui-ci de manière impérative."
+        },
+        {
+            "question": "Comment utiliser une ref dans un composant fonctionnel en React?",
+            "answer": "Vous pouvez utiliser une ref dans un composant fonctionnel en utilisant le hook useRef."
+        },
+        {
+            "question": "Qu'est-ce que la méthode forwardRef en React?",
+            "answer": "forwardRef est une fonction qui permet de transmettre des refs à des composants enfants, ce qui est particulièrement utile pour créer des composants d'ordre supérieur."
+        },
+        {
+            "question": "Qu'est-ce qu'une PropTypes en React?",
+            "answer": "PropTypes est un mécanisme de validation des props dans les composants React pour s'assurer qu'ils reçoivent des données du bon type."
+        },
+        {
+            "question": "Comment définir des PropTypes dans un composant React?",
+            "answer": "Vous pouvez définir des PropTypes en ajoutant une propriété propTypes à votre composant et en utilisant des types de PropTypes comme PropTypes.string, PropTypes.number, etc."
+        },
+        {
+            "question": "Qu'est-ce que le développement dirigé par les tests (TDD) en React?",
+            "answer": "Le TDD est une pratique de développement où vous écrivez des tests avant de coder les fonctionnalités, ce qui permet de créer un code plus robuste et sans bug."
+        },
+        {
+            "question": "Quels outils peuvent être utilisés pour tester une application React?",
+            "answer": "Vous pouvez utiliser des outils comme Jest pour les tests unitaires, React Testing Library pour tester les composants, et Cypress pour les tests end-to-end."
+        },
+        {
+            "question": "Qu'est-ce que la gestion d'état global en React?",
+            "answer": "La gestion d'état global en React consiste à gérer le state partagé par plusieurs composants à travers l'application, souvent avec des outils comme Redux ou le Context API."
+        },
+        {
+            "question": "Qu'est-ce que Redux?",
+            "answer": "Redux est une bibliothèque pour la gestion d'état prévisible et centralisée dans les applications JavaScript, souvent utilisée avec React."
+        },
+        {
+            "question": "Comment connecter un composant React à Redux?",
+            "answer": "Vous pouvez connecter un composant React à Redux en utilisant la fonction connect() de la bibliothèque react-redux."
+        },
+        {
+            "question": "Qu'est-ce qu'une action dans Redux?",
+            "answer": "Une action est un objet JavaScript simple qui contient un type et des données (payload) décrivant ce qui s'est passé et qui doit être traité par le store Redux."
+        },
+        {
+            "question": "Qu'est-ce qu'un reducer dans Redux?",
+            "answer": "Un reducer est une fonction qui prend l'état actuel et une action, puis retourne un nouvel état en fonction de cette action."
+        },
+        {
+            "question": "Comment utiliser le hook useReducer en React?",
+            "answer": "useReducer est un hook qui est utilisé pour gérer un state complexe dans les composants fonctionnels en React, en utilisant une logique similaire à Redux."
+        },
+        {
+            "question": "Comment déboguer une application React?",
+            "answer": "Vous pouvez déboguer une application React en utilisant les outils de développement React DevTools, en ajoutant des console.log dans le code, ou en utilisant des breakpoints dans le navigateur."
+        },
+        {
+            "question": "Qu'est-ce que la méthode getSnapshotBeforeUpdate en React?",
+            "answer": "getSnapshotBeforeUpdate est une méthode de cycle de vie qui est appelée juste avant que le DOM soit mis à jour et permet de capturer des informations du DOM avant le changement."
+        },
+        {
+            "question": "Comment effectuer un rendu conditionnel en React?",
+            "answer": "Vous pouvez effectuer un rendu conditionnel en React en utilisant des opérateurs ternaires, des conditions if, ou en retournant null pour éviter de rendre un composant."
+        },
+        {
+            "question": "Qu'est-ce que la gestion des dépendances dans useEffect en React?",
+            "answer": "La gestion des dépendances dans useEffect permet de spécifier quand l'effet doit être exécuté, en passant un tableau de dépendances comme deuxième argument à useEffect."
+        },
+        {
+            "question": "Qu'est-ce que le suspense pour les data-fetching en React?",
+            "answer": "Le suspense pour les data-fetching est une fonctionnalité expérimentale qui permet de suspendre le rendu de composants jusqu'à ce que les données soient disponibles."
+        },
+        {
+            "question": "Comment organiser le dossier d'un projet React?",
+            "answer": "Un projet React peut être organisé en séparant les composants, les styles, les utilitaires, les hooks, et les tests dans des dossiers distincts pour une meilleure maintenabilité."
+        },
+        {
+            "question": "Comment déployer une application React?",
+            "answer": "Vous pouvez déployer une application React en utilisant des services comme Vercel, Netlify, GitHub Pages, ou en configurant un serveur web pour servir les fichiers statiques générés par build."
+        }
+    ]
+}

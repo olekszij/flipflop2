@@ -1,0 +1,328 @@
+{
+    "questions": [
+        {
+            "question": "Qu'est-ce que JavaScript?",
+            "answer": "JavaScript est un langage de programmation utilisé principalement pour le développement web."
+        },
+        {
+            "question": "Quelle est la différence entre JavaScript et Java?",
+            "answer": "JavaScript est un langage de script principalement utilisé pour le web, tandis que Java est un langage de programmation orienté objet utilisé pour les applications back-end."
+        },
+        {
+            "question": "Qu'est-ce que le DOM en JavaScript?",
+            "answer": "Le DOM (Document Object Model) est une interface de programmation pour les documents HTML, représentant la page pour pouvoir manipuler la structure, le style et le contenu."
+        },
+        {
+            "question": "Comment déclarer une variable en JavaScript?",
+            "answer": "En JavaScript, vous pouvez déclarer une variable avec les mots-clés var, let ou const."
+        },
+        {
+            "question": "Quelle est la différence entre let, const et var?",
+            "answer": "var a une portée globale ou de fonction, let a une portée de bloc, et const est une constante qui ne peut pas être réassignée."
+        },
+        {
+            "question": "Comment créer une fonction en JavaScript?",
+            "answer": "Une fonction peut être créée avec le mot-clé function, suivi du nom de la fonction, des parenthèses et des accolades contenant le code."
+        },
+        {
+            "question": "Qu'est-ce qu'une fonction fléchée (arrow function) en JavaScript?",
+            "answer": "Une fonction fléchée est une syntaxe concise pour créer des fonctions anonymes, introduite dans ES6, qui lie automatiquement le contexte this."
+        },
+        {
+            "question": "Comment manipuler le DOM avec JavaScript?",
+            "answer": "Vous pouvez manipuler le DOM en utilisant des méthodes comme getElementById, querySelector, et en modifiant les propriétés des éléments."
+        },
+        {
+            "question": "Qu'est-ce que le JSON?",
+            "answer": "JSON (JavaScript Object Notation) est un format léger de données utilisé pour l'échange de données entre un client et un serveur."
+        },
+        {
+            "question": "Comment convertir un objet JavaScript en JSON?",
+            "answer": "Vous pouvez convertir un objet JavaScript en JSON en utilisant JSON.stringify()."
+        },
+        {
+            "question": "Comment convertir une chaîne JSON en objet JavaScript?",
+            "answer": "Vous pouvez convertir une chaîne JSON en objet JavaScript en utilisant JSON.parse()."
+        },
+        {
+            "question": "Qu'est-ce qu'une promesse en JavaScript?",
+            "answer": "Une promesse est un objet représentant l'achèvement ou l'échec d'une opération asynchrone."
+        },
+        {
+            "question": "Comment gérer les promesses en JavaScript?",
+            "answer": "Les promesses peuvent être gérées en utilisant les méthodes then() pour la réussite et catch() pour les erreurs."
+        },
+        {
+            "question": "Qu'est-ce que async/await en JavaScript?",
+            "answer": "async/await est une syntaxe pour écrire du code asynchrone de manière plus lisible, introduite dans ES8."
+        },
+        {
+            "question": "Qu'est-ce que le hoisting en JavaScript?",
+            "answer": "Le hoisting est le comportement par défaut de JavaScript où les déclarations de variables et de fonctions sont déplacées en haut de leur contexte d'exécution avant que le code ne soit exécuté."
+        },
+        {
+            "question": "Quelle est la différence entre == et ===?",
+            "answer": "== compare les valeurs après conversion de type, tandis que === compare à la fois les valeurs et les types, sans conversion."
+        },
+        {
+            "question": "Qu'est-ce que le concept de closure (fermeture) en JavaScript?",
+            "answer": "Une closure est une fonction qui se souvient de son environnement lexical, même après que la fonction extérieure a été exécutée."
+        },
+        {
+            "question": "Qu'est-ce que le concept de callback en JavaScript?",
+            "answer": "Un callback est une fonction passée en argument à une autre fonction, qui est exécutée après que cette dernière a terminé."
+        },
+        {
+            "question": "Qu'est-ce que le event bubbling en JavaScript?",
+            "answer": "Le event bubbling est un mécanisme où un événement déclenché sur un élément se propage d'abord à l'élément lui-même, puis à ses ancêtres."
+        },
+        {
+            "question": "Comment prévenir le event bubbling en JavaScript?",
+            "answer": "Vous pouvez prévenir le event bubbling en utilisant la méthode stopPropagation() sur l'événement."
+        },
+        {
+            "question": "Qu'est-ce qu'un IIFE (Immediately Invoked Function Expression)?",
+            "answer": "Un IIFE est une fonction qui est exécutée immédiatement après avoir été définie."
+        },
+        {
+            "question": "Comment détecter le type d'une variable en JavaScript?",
+            "answer": "Vous pouvez utiliser l'opérateur typeof pour déterminer le type d'une variable."
+        },
+        {
+            "question": "Qu'est-ce que NaN en JavaScript?",
+            "answer": "NaN signifie Not-a-Number et représente une valeur qui n'est pas un nombre valide."
+        },
+        {
+            "question": "Comment vérifier si une variable est NaN?",
+            "answer": "Vous pouvez utiliser la fonction isNaN() pour vérifier si une variable est NaN."
+        },
+        {
+            "question": "Qu'est-ce que l'objet global en JavaScript?",
+            "answer": "L'objet global est un objet qui est disponible partout dans le code JavaScript. En navigateur, c'est window, en Node.js, c'est global."
+        },
+        {
+            "question": "Qu'est-ce que le scope en JavaScript?",
+            "answer": "Le scope est la portée dans laquelle une variable est accessible. Il existe le scope global et le scope local."
+        },
+        {
+            "question": "Comment créer une classe en JavaScript?",
+            "answer": "Vous pouvez créer une classe en utilisant le mot-clé class introduit dans ES6."
+        },
+        {
+            "question": "Qu'est-ce que le prototype en JavaScript?",
+            "answer": "Le prototype est un objet duquel un autre objet hérite des propriétés et méthodes."
+        },
+        {
+            "question": "Quelle est la différence entre null et undefined?",
+            "answer": "undefined signifie qu'une variable a été déclarée mais n'a pas encore été assignée, tandis que null est un assignement explicite indiquant l'absence de valeur."
+        },
+        {
+            "question": "Qu'est-ce que le this en JavaScript?",
+            "answer": "this fait référence à l'objet actuel dans lequel une fonction est exécutée."
+        },
+        {
+            "question": "Comment vérifier si un objet a une propriété spécifique en JavaScript?",
+            "answer": "Vous pouvez utiliser la méthode hasOwnProperty() pour vérifier si un objet possède une propriété spécifique."
+        },
+        {
+            "question": "Comment ajouter un écouteur d'événement à un élément en JavaScript?",
+            "answer": "Vous pouvez ajouter un écouteur d'événement avec la méthode addEventListener()."
+        },
+        {
+            "question": "Qu'est-ce que l'héritage en JavaScript?",
+            "answer": "L'héritage en JavaScript permet à un objet de tirer des propriétés et des méthodes d'un autre objet via le prototype."
+        },
+        {
+            "question": "Comment créer un objet en JavaScript?",
+            "answer": "Vous pouvez créer un objet en utilisant la notation des objets littéraux avec des accolades {} ou en utilisant un constructeur."
+        },
+        {
+            "question": "Qu'est-ce qu'un tableau en JavaScript?",
+            "answer": "Un tableau est un objet de liste ordonnée qui stocke plusieurs valeurs dans une seule variable."
+        },
+        {
+            "question": "Comment ajouter un élément à la fin d'un tableau en JavaScript?",
+            "answer": "Vous pouvez utiliser la méthode push() pour ajouter un élément à la fin d'un tableau."
+        },
+        {
+            "question": "Comment supprimer le dernier élément d'un tableau en JavaScript?",
+            "answer": "Vous pouvez utiliser la méthode pop() pour supprimer le dernier élément d'un tableau."
+        },
+        {
+            "question": "Comment parcourir un tableau en JavaScript?",
+            "answer": "Vous pouvez utiliser une boucle for, la méthode forEach(), ou une boucle for...of pour parcourir un tableau."
+        },
+        {
+            "question": "Qu'est-ce qu'une fonction anonyme en JavaScript?",
+            "answer": "Une fonction anonyme est une fonction sans nom, souvent utilisée comme argument pour d'autres fonctions."
+        },
+        {
+            "question": "Qu'est-ce qu'une promise en JavaScript?",
+            "answer": "Une promise est un objet représentant la terminaison ou l'échec d'une opération asynchrone."
+        },
+        {
+            "question": "Comment utiliser fetch pour faire une requête HTTP en JavaScript?",
+            "answer": "Vous pouvez utiliser la fonction fetch() pour faire des requêtes HTTP, qui retourne une promise."
+        },
+        {
+            "question": "Qu'est-ce que le spread operator en JavaScript?",
+            "answer": "Le spread operator (...) permet d'étendre un tableau ou un objet en plusieurs éléments distincts."
+        },
+        {
+            "question": "Qu'est-ce que le rest parameter en JavaScript?",
+            "answer": "Le rest parameter permet de représenter un nombre indéfini d'arguments sous forme d'un tableau."
+        },
+        {
+            "question": "Comment fusionner deux tableaux en JavaScript?",
+            "answer": "Vous pouvez fusionner deux tableaux en utilisant le spread operator ou la méthode concat()."
+        },
+        {
+            "question": "Qu'est-ce que le destructuring en JavaScript?",
+            "answer": "Le destructuring est une syntaxe qui permet d'extraire des données d'objets ou de tableaux dans des variables distinctes."
+        },
+        {
+            "question": "Comment cloner un objet en JavaScript?",
+            "answer": "Vous pouvez cloner un objet en utilisant Object.assign() ou le spread operator."
+        },
+        {
+            "question": "Comment vider un tableau en JavaScript?",
+            "answer": "Vous pouvez vider un tableau en assignant une nouvelle valeur vide [], en utilisant la méthode length = 0, ou en utilisant splice()."
+        },
+        {
+            "question": "Qu'est-ce que la méthode map() en JavaScript?",
+            "answer": "La méthode map() crée un nouveau tableau avec les résultats de l'appel d'une fonction sur chaque élément du tableau."
+        },
+        {
+            "question": "Qu'est-ce que la méthode filter() en JavaScript?",
+            "answer": "La méthode filter() crée un nouveau tableau avec tous les éléments qui passent un test fourni par une fonction."
+        },
+        {
+            "question": "Qu'est-ce que la méthode reduce() en JavaScript?",
+            "answer": "La méthode reduce() applique une fonction qui est un accumulateur sur chaque valeur du tableau (de gauche à droite) pour réduire à une seule valeur."
+        },
+        {
+            "question": "Comment trier un tableau en JavaScript?",
+            "answer": "Vous pouvez trier un tableau en utilisant la méthode sort()."
+        },
+        {
+            "question": "Comment inverser un tableau en JavaScript?",
+            "answer": "Vous pouvez inverser un tableau en utilisant la méthode reverse()."
+        },
+        {
+            "question": "Qu'est-ce qu'un Set en JavaScript?",
+            "answer": "Un Set est une collection d'éléments uniques, ce qui signifie que chaque élément ne peut apparaître qu'une seule fois."
+        },
+        {
+            "question": "Qu'est-ce qu'une Map en JavaScript?",
+            "answer": "Une Map est une collection de paires clé-valeur où les clés peuvent être de n'importe quel type."
+        },
+        {
+            "question": "Comment ajouter un élément à un Set en JavaScript?",
+            "answer": "Vous pouvez ajouter un élément à un Set en utilisant la méthode add()."
+        },
+        {
+            "question": "Comment supprimer un élément d'un Set en JavaScript?",
+            "answer": "Vous pouvez supprimer un élément d'un Set en utilisant la méthode delete()."
+        },
+        {
+            "question": "Comment vérifier si un Set contient un élément en JavaScript?",
+            "answer": "Vous pouvez vérifier si un Set contient un élément en utilisant la méthode has()."
+        },
+        {
+            "question": "Comment ajouter une paire clé-valeur à une Map en JavaScript?",
+            "answer": "Vous pouvez ajouter une paire clé-valeur à une Map en utilisant la méthode set()."
+        },
+        {
+            "question": "Comment obtenir la valeur associée à une clé dans une Map en JavaScript?",
+            "answer": "Vous pouvez obtenir la valeur associée à une clé dans une Map en utilisant la méthode get()."
+        },
+        {
+            "question": "Comment supprimer une paire clé-valeur d'une Map en JavaScript?",
+            "answer": "Vous pouvez supprimer une paire clé-valeur d'une Map en utilisant la méthode delete()."
+        },
+        {
+            "question": "Comment vérifier si une Map contient une clé en JavaScript?",
+            "answer": "Vous pouvez vérifier si une Map contient une clé en utilisant la méthode has()."
+        },
+        {
+            "question": "Qu'est-ce que l'objet Math en JavaScript?",
+            "answer": "L'objet Math en JavaScript fournit des propriétés et des méthodes pour les constantes et les fonctions mathématiques."
+        },
+        {
+            "question": "Comment générer un nombre aléatoire en JavaScript?",
+            "answer": "Vous pouvez générer un nombre aléatoire en utilisant la méthode Math.random()."
+        },
+        {
+            "question": "Comment arrondir un nombre en JavaScript?",
+            "answer": "Vous pouvez arrondir un nombre en utilisant Math.round(), Math.ceil() pour arrondir vers le haut, ou Math.floor() pour arrondir vers le bas."
+        },
+        {
+            "question": "Qu'est-ce que NaN et comment vérifier si une valeur est NaN?",
+            "answer": "NaN signifie 'Not-a-Number'. Vous pouvez vérifier si une valeur est NaN en utilisant la fonction isNaN()."
+        },
+        {
+            "question": "Comment obtenir la longueur d'une chaîne en JavaScript?",
+            "answer": "Vous pouvez obtenir la longueur d'une chaîne en utilisant la propriété length."
+        },
+        {
+            "question": "Comment convertir une chaîne en majuscules en JavaScript?",
+            "answer": "Vous pouvez convertir une chaîne en majuscules en utilisant la méthode toUpperCase()."
+        },
+        {
+            "question": "Comment convertir une chaîne en minuscules en JavaScript?",
+            "answer": "Vous pouvez convertir une chaîne en minuscules en utilisant la méthode toLowerCase()."
+        },
+        {
+            "question": "Comment vérifier si une chaîne contient une sous-chaîne en JavaScript?",
+            "answer": "Vous pouvez vérifier si une chaîne contient une sous-chaîne en utilisant la méthode includes()."
+        },
+        {
+            "question": "Comment diviser une chaîne en un tableau en JavaScript?",
+            "answer": "Vous pouvez diviser une chaîne en un tableau en utilisant la méthode split()."
+        },
+        {
+            "question": "Comment remplacer une partie d'une chaîne en JavaScript?",
+            "answer": "Vous pouvez remplacer une partie d'une chaîne en utilisant la méthode replace()."
+        },
+        {
+            "question": "Comment concaténer deux chaînes en JavaScript?",
+            "answer": "Vous pouvez concaténer deux chaînes en utilisant l'opérateur + ou la méthode concat()."
+        },
+        {
+            "question": "Comment supprimer les espaces en début et fin de chaîne en JavaScript?",
+            "answer": "Vous pouvez supprimer les espaces en début et fin de chaîne en utilisant la méthode trim()."
+        },
+        {
+            "question": "Qu'est-ce que la coercition de type en JavaScript?",
+            "answer": "La coercition de type est le processus par lequel JavaScript convertit automatiquement une valeur d'un type en un autre."
+        },
+        {
+            "question": "Qu'est-ce qu'une expression régulière en JavaScript?",
+            "answer": "Une expression régulière est un motif utilisé pour rechercher et manipuler des chaînes de caractères en JavaScript."
+        },
+        {
+            "question": "Comment utiliser les expressions régulières en JavaScript?",
+            "answer": "Vous pouvez utiliser les expressions régulières en JavaScript avec les méthodes comme match(), replace(), search(), et test()."
+        },
+        {
+            "question": "Comment vérifier si une variable est un tableau en JavaScript?",
+            "answer": "Vous pouvez vérifier si une variable est un tableau en utilisant Array.isArray()."
+        },
+        {
+            "question": "Comment fusionner plusieurs objets en JavaScript?",
+            "answer": "Vous pouvez fusionner plusieurs objets en utilisant Object.assign() ou le spread operator."
+        },
+        {
+            "question": "Comment supprimer une propriété d'un objet en JavaScript?",
+            "answer": "Vous pouvez supprimer une propriété d'un objet en utilisant l'opérateur delete."
+        },
+        {
+            "question": "Qu'est-ce qu'un générateur en JavaScript?",
+            "answer": "Un générateur est une fonction qui peut arrêter son exécution et reprendre plus tard, permettant de produire une séquence de valeurs."
+        },
+        {
+            "question": "Comment créer un générateur en JavaScript?",
+            "answer": "Vous pouvez créer un générateur en utilisant le mot-clé function* suivi de yield pour renvoyer les valeurs."
+        }
+    ]
+}
